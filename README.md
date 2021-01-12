@@ -17,12 +17,13 @@
 
         $ vagrant up pxeclient
 
-3. После вываода строчки pxeclient: SSH auth method: private key - откройте клиента и выберите вариант загузки - Install CentOS8 (по умолчанию стартует через 60 секунд)
+3. После вывода строчки pxeclient: SSH auth method: private key - откройте клиента и выберите вариант загузки - Install CentOS8 (по умолчанию стартует через 60 секунд)
 
 4. Установка через kickstart файл:
 - погасите и удалите pxeclient
-- выполните пункт 3
-- в меню выберите вариант - Install with kickstart file
+- выполните пункт 2
+- После вывода строчки pxeclient: SSH auth method: private key - откройте клиента
+- В меню выберите вариант - Install with kickstart file
 - убедитесь, что пользовательские данные (из файла ks.cfg) уже заполнены
 
 
